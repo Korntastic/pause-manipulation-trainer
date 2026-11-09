@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>P.A.U.S.E. Manipulation Recognition Trainer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style_additions.css">
+</head>
+<body>
+<div class="app">
+  <aside class="rail">
+    <div class="rail-brand">
+      <span class="rail-mark">P<em>·</em>A<em>·</em>U<em>·</em>S<em>·</em>E</span>
+      <p class="rail-tag">Manipulation recognition trainer</p>
+    </div>
+    <div class="rail-progress-row"><span id="railProgressText">0 of 11 training complete</span></div>
+    <div class="rail-progress"><div class="rail-progress-fill" id="railProgressFill" style="width:0%"></div></div>
+    <nav class="rail-list" id="railList"></nav>
+    <button class="rail-reset" id="resetBtn" type="button">Reset everything</button>
+  </aside>
+  <main class="stage" id="stage"></main>
+</div>
+<script src="data.js"></script>
+<script src="test-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
